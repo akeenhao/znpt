@@ -1,0 +1,243 @@
+2019-04-25 14:07:58,950 WARN  [main] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/ipop/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-04-25 14:07:58,970 INFO  [main] CalculatServiceImplTest: The following profiles are active: swagger,no-liquibase,loc
+2019-04-25 14:08:10,553 DEBUG [main] AsyncConfiguration: Creating Async Task Executor
+2019-04-25 14:08:11,260 DEBUG [main] MetricsConfiguration: Registering JVM gauges
+2019-04-25 14:08:11,432 DEBUG [main] MetricsConfiguration: Initializing Metrics JMX reporting
+2019-04-25 14:08:12,274 DEBUG [main] AsyncSpringLiquibase: Liquibase is disabled
+2019-04-25 14:08:20,387 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:08:20,662 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:08:20,668 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:08:20,673 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:08:20,684 DEBUG [main] JPushClient: jpush配置初始化成功！
+2019-04-25 14:08:23,096 DEBUG [main] WebConfigurer: Registering CORS filter
+2019-04-25 14:08:28,843 DEBUG [main] Reflections: going to scan these urls:
+jar:file:/D:/M3/repository/com/sgm/robot/common/common-module/1.0.12/common-module-1.0.12.jar!/
+file:/D:/SGM/IPOP-server/target/test-classes/
+file:/D:/SGM/IPOP-server/target/classes/
+2019-04-25 14:08:29,038 INFO  [main] Reflections: Reflections took 192 ms to scan 3 urls, producing 299 keys and 2404 values 
+2019-04-25 14:08:29,053 DEBUG [main] Reflections: expanded subtype javax.servlet.Filter -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanNameAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanNameAware
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.context.EnvironmentAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.EnvironmentAware
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.core.env.EnvironmentCapable -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.web.context.ServletContextAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.web.context.ServletContextAware
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,055 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype java.lang.RuntimeException -> org.springframework.security.core.AuthenticationException
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype java.lang.Exception -> java.lang.RuntimeException
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype java.lang.Throwable -> java.lang.Exception
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> java.lang.Throwable
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait
+2019-04-25 14:08:29,056 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:08:29,059 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait
+2019-04-25 14:08:29,060 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.HttpAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,065 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:08:29,066 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.IOAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:08:29,067 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait
+2019-04-25 14:08:29,068 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait
+2019-04-25 14:08:29,069 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait
+2019-04-25 14:08:29,070 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BindAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:08:29,070 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BindAdviceTrait
+2019-04-25 14:08:29,070 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait
+2019-04-25 14:08:29,072 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:08:29,072 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.cache.annotation.CachingConfigurer -> org.springframework.cache.annotation.CachingConfigurerSupport
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.web.servlet.config.annotation.WebMvcConfigurer -> org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaRepository -> org.springframework.data.jpa.repository.support.SimpleJpaRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.PagingAndSortingRepository -> org.springframework.data.jpa.repository.JpaRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.CrudRepository -> org.springframework.data.repository.PagingAndSortingRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.Repository -> org.springframework.data.repository.CrudRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.query.QueryByExampleExecutor -> org.springframework.data.jpa.repository.JpaRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaSpecificationExecutor -> org.springframework.data.jpa.repository.support.SimpleJpaRepository
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype com.ryantenney.metrics.spring.config.annotation.MetricsConfigurer -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2019-04-25 14:08:29,073 DEBUG [main] Reflections: expanded subtype org.zalando.problem.ThrowableProblem -> org.zalando.problem.AbstractThrowableProblem
+2019-04-25 14:08:29,074 DEBUG [main] Reflections: expanded subtype java.lang.RuntimeException -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:08:29,074 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:08:29,074 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Exceptional -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:08:29,074 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.Exceptional
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactorySupport -> org.springframework.data.jpa.repository.support.JpaRepositoryFactory
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanClassLoaderAware -> org.springframework.data.repository.core.support.RepositoryFactorySupport
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanClassLoaderAware
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.RepositoryFactorySupport
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanFactoryAware
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.web.WebSecurityConfigurer -> org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+2019-04-25 14:08:29,075 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.web.WebSecurityConfigurer
+2019-04-25 14:08:29,076 DEBUG [main] Reflections: expanded subtype org.springframework.web.WebApplicationInitializer -> org.springframework.boot.web.support.SpringBootServletInitializer
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport -> org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport -> org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactoryInformation -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.FactoryBean -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanClassLoaderAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.context.ApplicationEventPublisherAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.ApplicationEventPublisherAware
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> org.hibernate.transform.ResultTransformer
+2019-04-25 14:08:29,077 DEBUG [main] Reflections: expanded subtype ch.qos.logback.core.spi.ContextAware -> ch.qos.logback.core.spi.ContextAwareBase
+2019-04-25 14:08:29,078 DEBUG [main] Reflections: expanded subtype java.lang.Comparable -> java.lang.Enum
+2019-04-25 14:08:29,078 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> java.lang.Enum
+2019-04-25 14:08:29,078 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.SecurityConfigurerAdapter
+2019-04-25 14:08:29,079 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.cloud.config.java.AbstractCloudConfig
+2019-04-25 14:08:31,975 DEBUG [main] TimerManager: 初始化loader并执行timerManager.burst();
+2019-04-25 14:08:37,286 WARN  [main] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2019-04-25 14:08:37,294 WARN  [main] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2019-04-25 14:08:37,887 DEBUG [main] SwaggerConfiguration: Starting Swagger
+2019-04-25 14:08:37,893 DEBUG [main] SwaggerConfiguration: Started Swagger in 6 ms
+2019-04-25 14:08:44,682 INFO  [main] CalculatServiceImplTest: Started CalculatServiceImplTest in 50.641 seconds (JVM running for 52.822)
+2019-04-25 14:08:47,935 WARN  [main] SqlExceptionHelper: SQL Error: 904, SQLState: 42000
+2019-04-25 14:08:47,936 ERROR [main] SqlExceptionHelper: ORA-00904: "ABC": invalid identifier
+
+2019-04-25 14:09:25,416 WARN  [main] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/ipop/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-04-25 14:09:25,424 INFO  [main] CalculatServiceImplTest: The following profiles are active: swagger,no-liquibase,loc
+2019-04-25 14:09:30,703 DEBUG [main] AsyncConfiguration: Creating Async Task Executor
+2019-04-25 14:09:31,395 DEBUG [main] MetricsConfiguration: Registering JVM gauges
+2019-04-25 14:09:31,454 DEBUG [main] MetricsConfiguration: Initializing Metrics JMX reporting
+2019-04-25 14:09:32,220 DEBUG [main] AsyncSpringLiquibase: Liquibase is disabled
+2019-04-25 14:09:40,435 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:09:40,455 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:09:40,457 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:09:40,458 INFO  [main] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2019-04-25 14:09:40,459 DEBUG [main] JPushClient: jpush配置初始化成功！
+2019-04-25 14:09:42,570 DEBUG [main] WebConfigurer: Registering CORS filter
+2019-04-25 14:09:48,370 DEBUG [main] Reflections: going to scan these urls:
+jar:file:/D:/M3/repository/com/sgm/robot/common/common-module/1.0.12/common-module-1.0.12.jar!/
+file:/D:/SGM/IPOP-server/target/test-classes/
+file:/D:/SGM/IPOP-server/target/classes/
+2019-04-25 14:09:48,510 INFO  [main] Reflections: Reflections took 138 ms to scan 3 urls, producing 299 keys and 2404 values 
+2019-04-25 14:09:48,520 DEBUG [main] Reflections: expanded subtype javax.servlet.Filter -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanNameAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanNameAware
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.context.EnvironmentAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.EnvironmentAware
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.core.env.EnvironmentCapable -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.web.context.ServletContextAware -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.web.context.ServletContextAware
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,522 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> org.springframework.web.filter.GenericFilterBean
+2019-04-25 14:09:48,523 DEBUG [main] Reflections: expanded subtype java.lang.RuntimeException -> org.springframework.security.core.AuthenticationException
+2019-04-25 14:09:48,523 DEBUG [main] Reflections: expanded subtype java.lang.Exception -> java.lang.RuntimeException
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype java.lang.Throwable -> java.lang.Exception
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> java.lang.Throwable
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait
+2019-04-25 14:09:48,524 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2019-04-25 14:09:48,525 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait
+2019-04-25 14:09:48,525 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.HttpAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,525 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:09:48,526 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait
+2019-04-25 14:09:48,526 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:09:48,526 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait
+2019-04-25 14:09:48,526 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2019-04-25 14:09:48,526 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.IOAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait
+2019-04-25 14:09:48,529 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2019-04-25 14:09:48,530 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait
+2019-04-25 14:09:48,530 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,530 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:09:48,530 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait
+2019-04-25 14:09:48,530 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:09:48,532 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait
+2019-04-25 14:09:48,532 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2019-04-25 14:09:48,533 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BindAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BindAdviceTrait
+2019-04-25 14:09:48,534 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.cache.annotation.CachingConfigurer -> org.springframework.cache.annotation.CachingConfigurerSupport
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.web.servlet.config.annotation.WebMvcConfigurer -> org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaRepository -> org.springframework.data.jpa.repository.support.SimpleJpaRepository
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.PagingAndSortingRepository -> org.springframework.data.jpa.repository.JpaRepository
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.CrudRepository -> org.springframework.data.repository.PagingAndSortingRepository
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.Repository -> org.springframework.data.repository.CrudRepository
+2019-04-25 14:09:48,535 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.query.QueryByExampleExecutor -> org.springframework.data.jpa.repository.JpaRepository
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaSpecificationExecutor -> org.springframework.data.jpa.repository.support.SimpleJpaRepository
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype com.ryantenney.metrics.spring.config.annotation.MetricsConfigurer -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.zalando.problem.ThrowableProblem -> org.zalando.problem.AbstractThrowableProblem
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype java.lang.RuntimeException -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Exceptional -> org.zalando.problem.ThrowableProblem
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.Exceptional
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactorySupport -> org.springframework.data.jpa.repository.support.JpaRepositoryFactory
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanClassLoaderAware -> org.springframework.data.repository.core.support.RepositoryFactorySupport
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanClassLoaderAware
+2019-04-25 14:09:48,536 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.RepositoryFactorySupport
+2019-04-25 14:09:48,537 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanFactoryAware
+2019-04-25 14:09:48,537 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.web.WebSecurityConfigurer -> org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+2019-04-25 14:09:48,537 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.web.WebSecurityConfigurer
+2019-04-25 14:09:48,537 DEBUG [main] Reflections: expanded subtype org.springframework.web.WebApplicationInitializer -> org.springframework.boot.web.support.SpringBootServletInitializer
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport -> org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport -> org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.data.repository.core.support.RepositoryFactoryInformation -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.FactoryBean -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanClassLoaderAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.context.ApplicationEventPublisherAware -> org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport
+2019-04-25 14:09:48,538 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.ApplicationEventPublisherAware
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> org.hibernate.transform.ResultTransformer
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype ch.qos.logback.core.spi.ContextAware -> ch.qos.logback.core.spi.ContextAwareBase
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype java.lang.Comparable -> java.lang.Enum
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype java.io.Serializable -> java.lang.Enum
+2019-04-25 14:09:48,539 DEBUG [main] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.SecurityConfigurerAdapter
+2019-04-25 14:09:48,540 DEBUG [main] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.cloud.config.java.AbstractCloudConfig
+2019-04-25 14:09:51,347 DEBUG [main] TimerManager: 初始化loader并执行timerManager.burst();
+2019-04-25 14:09:56,436 WARN  [main] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2019-04-25 14:09:56,446 WARN  [main] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2019-04-25 14:09:57,067 DEBUG [main] SwaggerConfiguration: Starting Swagger
+2019-04-25 14:09:57,072 DEBUG [main] SwaggerConfiguration: Started Swagger in 5 ms
+2019-04-25 14:10:03,725 INFO  [main] CalculatServiceImplTest: Started CalculatServiceImplTest in 42.867 seconds (JVM running for 44.243)

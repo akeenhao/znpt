@@ -1,0 +1,85 @@
+2018-10-15 12:00:54,852 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/admin/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-10-15 12:00:54,852 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-10-15 12:00:57,790 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-10-15 12:00:58,102 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-10-15 12:00:58,102 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-10-15 12:00:58,727 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2018-10-15 12:00:58,852 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2018-10-15 12:00:58,852 DEBUG [restartedMain] WebConfigurer: Initializing Metrics registries
+2018-10-15 12:00:58,852 DEBUG [restartedMain] WebConfigurer: Registering Metrics Filter
+2018-10-15 12:00:58,852 DEBUG [restartedMain] WebConfigurer: Registering Metrics Servlet
+2018-10-15 12:00:58,868 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2018-10-15 12:00:59,259 DEBUG [restartedMain] AsyncSpringLiquibase: Liquibase is disabled
+2018-10-15 12:01:05,681 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 12:01:05,697 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 12:01:05,697 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 12:01:05,697 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 12:01:05,697 DEBUG [restartedMain] JPushClient: jpush配置初始化成功！
+2018-10-15 12:01:08,088 WARN  [restartedMain] AnnotationConfigEmbeddedWebApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accessorialSystemServiceImpl' defined in file [D:\SGM\IPOP-server\target\classes\com\sgm\ipop\admin\service\impl\AccessorialSystemServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sgm.ipop.admin.service.mapper.AccessorialSystemMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-10-15 12:01:08,659 ERROR [restartedMain] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.sgm.ipop.admin.service.impl.AccessorialSystemServiceImpl required a bean of type 'com.sgm.ipop.admin.service.mapper.AccessorialSystemMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.sgm.ipop.admin.service.mapper.AccessorialSystemMapper' in your configuration.
+
+2018-10-15 13:17:55,742 DEBUG [restartedMain] HttpURLConnection: sun.net.www.MessageHeader@3ac318eb6 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-10-15 13:17:55,945 DEBUG [restartedMain] HttpURLConnection: sun.net.www.MessageHeader@6774266911 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Mon, 15 Oct 2018 05:17:55 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
+2018-10-15 13:17:56,007 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-10-15 13:17:58,789 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-10-15 13:17:59,086 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-10-15 13:17:59,086 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-10-15 13:17:59,773 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2018-10-15 13:17:59,914 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2018-10-15 13:17:59,914 DEBUG [restartedMain] WebConfigurer: Initializing Metrics registries
+2018-10-15 13:17:59,914 DEBUG [restartedMain] WebConfigurer: Registering Metrics Filter
+2018-10-15 13:17:59,914 DEBUG [restartedMain] WebConfigurer: Registering Metrics Servlet
+2018-10-15 13:17:59,914 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2018-10-15 13:18:00,305 DEBUG [restartedMain] AsyncSpringLiquibase: Liquibase is disabled
+2018-10-15 13:18:05,910 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 13:18:06,160 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 13:18:06,160 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 13:18:06,160 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-10-15 13:18:06,160 DEBUG [restartedMain] JPushClient: jpush配置初始化成功！
+2018-10-15 13:18:14,836 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-10-15 13:18:14,836 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-10-15 13:18:15,289 DEBUG [restartedMain] SwaggerConfiguration: Starting Swagger
+2018-10-15 13:18:15,289 DEBUG [restartedMain] SwaggerConfiguration: Started Swagger in 0 ms
+2018-10-15 13:18:16,961 INFO  [restartedMain] DiscoveryClient: Initializing Eureka in region us-east-1
+2018-10-15 13:18:17,008 INFO  [restartedMain] DiscoveryJerseyProvider: Using JSON encoding codec LegacyJacksonJson
+2018-10-15 13:18:17,008 INFO  [restartedMain] DiscoveryJerseyProvider: Using JSON decoding codec LegacyJacksonJson
+2018-10-15 13:18:17,102 INFO  [restartedMain] DiscoveryJerseyProvider: Using XML encoding codec XStreamXml
+2018-10-15 13:18:17,102 INFO  [restartedMain] DiscoveryJerseyProvider: Using XML decoding codec XStreamXml
+2018-10-15 13:18:17,227 INFO  [restartedMain] ConfigClusterResolver: Resolving eureka endpoints via configuration
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Disable delta property : false
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Single vip registry refresh property : null
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Force full registry fetch : false
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Application is null : false
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Registered Applications size is zero : true
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Application version is -1: true
+2018-10-15 13:18:17,258 INFO  [restartedMain] DiscoveryClient: Getting all instance registry info from the eureka server
+2018-10-15 13:18:17,399 INFO  [restartedMain] DiscoveryClient: The response status is 200
+2018-10-15 13:18:17,414 INFO  [restartedMain] DiscoveryClient: Starting heartbeat executor: renew interval is: 5
+2018-10-15 13:18:17,414 INFO  [restartedMain] InstanceInfoReplicator: InstanceInfoReplicator onDemand update allowed rate per min is 12
+2018-10-15 13:18:17,414 INFO  [restartedMain] DiscoveryClient: Discovery Client initialized at timestamp 1539580697414 with initial instances count: 8
+2018-10-15 13:18:17,430 INFO  [restartedMain] DiscoveryClient: Saw local status change event StatusChangeEvent [timestamp=1539580697430, current=UP, previous=STARTING]
+2018-10-15 13:18:17,758 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@1788e5fc6 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-10-15 13:18:17,946 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@5d69d67811 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Mon, 15 Oct 2018 05:18:17 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
+2018-10-15 13:18:17,946 INFO  [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient: DiscoveryClient_IPOP/ipop:00ac707f88a88a67bb64048dae231f77: registering service...
+2018-10-15 13:18:17,992 INFO  [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient: DiscoveryClient_IPOP/ipop:00ac707f88a88a67bb64048dae231f77 - registration status: 204
+2018-10-15 13:18:20,571 INFO  [restartedMain] AdminApp: Started AdminApp in 27.017 seconds (JVM running for 28.458)
+2018-10-15 13:18:20,571 INFO  [restartedMain] AdminApp: 
+----------------------------------------------------------
+	Application 'ipop' is running! Access URLs:
+	Local: 		http://localhost:8081
+	External: 	http://10.21.12.42:8081
+	Profile(s): 	[swagger, no-liquibase, dev]
+----------------------------------------------------------

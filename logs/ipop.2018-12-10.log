@@ -1,0 +1,275 @@
+2018-12-10 08:36:08,261 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/admin/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-12-10 08:36:08,261 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-12-10 08:36:12,497 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-12-10 08:36:13,058 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-12-10 08:36:13,094 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-12-10 08:36:20,870 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/admin/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-12-10 08:36:20,870 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-12-10 08:36:25,370 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-12-10 08:36:25,854 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-12-10 08:36:25,870 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-12-10 08:36:26,885 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2018-12-10 08:36:27,073 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2018-12-10 08:36:27,073 DEBUG [restartedMain] WebConfigurer: Initializing Metrics registries
+2018-12-10 08:36:27,073 DEBUG [restartedMain] WebConfigurer: Registering Metrics Filter
+2018-12-10 08:36:27,073 DEBUG [restartedMain] WebConfigurer: Registering Metrics Servlet
+2018-12-10 08:36:27,073 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2018-12-10 08:36:27,591 DEBUG [restartedMain] AsyncSpringLiquibase: Liquibase is disabled
+2018-12-10 08:36:36,385 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:36:36,464 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:36:36,464 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:36:36,464 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:36:36,464 DEBUG [restartedMain] JPushClient: jpush配置初始化成功！
+2018-12-10 08:36:43,433 DEBUG [restartedMain] Reflections: going to scan these urls:
+file:/D:/SGM/IPOP-server/target/classes/
+2018-12-10 08:36:43,602 INFO  [restartedMain] Reflections: Reflections took 166 ms to scan 1 urls, producing 201 keys and 1406 values 
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.web.WebSecurityConfigurer -> org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.web.WebSecurityConfigurer
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype javax.servlet.Filter -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.BeanNameAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanNameAware
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.context.EnvironmentAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.EnvironmentAware
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.core.env.EnvironmentCapable -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.context.ServletContextAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.web.context.ServletContextAware
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:36:43,603 DEBUG [restartedMain] Reflections: expanded subtype java.lang.RuntimeException -> org.springframework.security.core.AuthenticationException
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Exception -> java.lang.RuntimeException
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Throwable -> java.lang.Exception
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype java.io.Serializable -> java.lang.Throwable
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.HttpAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait
+2018-12-10 08:36:43,619 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.IOAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait
+2018-12-10 08:36:43,634 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:36:43,650 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait
+2018-12-10 08:36:43,650 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:36:43,650 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait
+2018-12-10 08:36:43,650 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BindAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BindAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait
+2018-12-10 08:36:43,651 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:36:43,653 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait
+2018-12-10 08:36:43,653 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.cache.annotation.CachingConfigurer -> org.springframework.cache.annotation.CachingConfigurerSupport
+2018-12-10 08:36:43,654 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.WebApplicationInitializer -> org.springframework.boot.web.support.SpringBootServletInitializer
+2018-12-10 08:36:43,654 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.servlet.config.annotation.WebMvcConfigurer -> org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
+2018-12-10 08:36:43,654 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaRepository -> com.sgm.ipop.common.repository.base.BaseRepository
+2018-12-10 08:36:43,654 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.PagingAndSortingRepository -> org.springframework.data.jpa.repository.JpaRepository
+2018-12-10 08:36:43,654 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.CrudRepository -> org.springframework.data.repository.PagingAndSortingRepository
+2018-12-10 08:36:43,655 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.Repository -> org.springframework.data.repository.CrudRepository
+2018-12-10 08:36:43,655 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.query.QueryByExampleExecutor -> org.springframework.data.jpa.repository.JpaRepository
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype ch.qos.logback.core.spi.ContextAware -> ch.qos.logback.core.spi.ContextAwareBase
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Comparable -> java.lang.Enum
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype java.io.Serializable -> java.lang.Enum
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype com.ryantenney.metrics.spring.config.annotation.MetricsConfigurer -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2018-12-10 08:36:43,657 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.SecurityConfigurerAdapter
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.ThrowableProblem -> org.zalando.problem.AbstractThrowableProblem
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype java.lang.RuntimeException -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Exceptional -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.Exceptional
+2018-12-10 08:36:43,658 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.cloud.config.java.AbstractCloudConfig
+2018-12-10 08:36:43,659 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanFactoryAware
+2018-12-10 08:36:51,323 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-12-10 08:36:51,339 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-12-10 08:36:52,245 DEBUG [restartedMain] SwaggerConfiguration: Starting Swagger
+2018-12-10 08:36:52,245 DEBUG [restartedMain] SwaggerConfiguration: Started Swagger in 0 ms
+2018-12-10 08:36:59,260 INFO  [restartedMain] AdminApp: Started AdminApp in 41.5 seconds (JVM running for 42.971)
+2018-12-10 08:36:59,260 INFO  [restartedMain] AdminApp: 
+----------------------------------------------------------
+	Application 'ipop' is running! Access URLs:
+	Local: 		http://localhost:8081
+	External: 	http://10.21.12.23:8081
+	Profile(s): 	[swagger, no-liquibase, dev]
+----------------------------------------------------------
+2018-12-10 08:37:27,605 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: DealerAccessFilter init start
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 请求路径：/ipop-open/api/calculat/calculatName
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header1 ： Accept --> */*
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header2 ： Cache-Control --> no-cache
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header3 ： x-position-code --> zhizao
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header4 ： User-Agent --> Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header5 ： Connection --> keep-alive
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header6 ： Postman-Token --> cf792dab-7f8b-dfcc-4536-25e8ff4549d3
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header7 ： Host --> localhost:8081
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header8 ： Accept-Language --> zh-CN,zh;q=0.9
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header9 ： Accept-Encoding --> gzip, deflate, br
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header10 ： x-user-code --> apptest50
+2018-12-10 08:37:27,677 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header11 ： x-module-system-id --> 3
+2018-12-10 08:37:27,678 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header12 ： Content-Type --> application/json;charset=UTF-8
+2018-12-10 08:37:27,680 INFO  [XNIO-2 task-1] DefaultAccessServletFilter: start doFilter
+2018-12-10 08:37:27,700 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.web.rest.special.IpopOpenResource.qryCalculatName() with argument[s] = []
+2018-12-10 08:37:27,758 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.service.impl.CalculatServiceImpl.qryCalculatName() with argument[s] = []
+2018-12-10 08:37:27,995 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.service.impl.CalculatServiceImpl.qryCalculatName() with result = [CalculatDTO{id=null, calculatName=N5-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.993Z, lastModifiedDate=2018-12-10T00:37:27.993Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N30-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N100-STD, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N300-STD, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N100-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N300-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}]
+2018-12-10 08:37:28,040 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.web.rest.special.IpopOpenResource.qryCalculatName() with result = <200 OK,[CalculatDTO{id=null, calculatName=N5-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.993Z, lastModifiedDate=2018-12-10T00:37:27.993Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N30-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N100-STD, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N300-STD, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N100-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}, CalculatDTO{id=null, calculatName=N300-AVG, calculatType=null, pointValue=null, createdBy=null, lastModifiedBy=null, createdDate=2018-12-10T00:37:27.994Z, lastModifiedDate=2018-12-10T00:37:27.994Z, isDeleted=null}],{}>
+2018-12-10 08:37:28,040 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.service.impl.RedisServiceImpl.set() with argument[s] = [/ipop/ipop-open/api/calculat/calculatName, CalculatDTO, 604800000]
+2018-12-10 08:37:28,463 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.service.impl.RedisServiceImpl.set() with result = true
+2018-12-10 08:37:28,607 INFO  [XNIO-2 task-1] DefaultAccessServletFilter: end doFilter
+2018-12-10 08:51:06,271 WARN  [restartedMain] ConfigServicePropertySourceLocator: Could not locate PropertySource: I/O error on GET request for "http://localhost:8761/config/admin/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-12-10 08:51:06,271 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-12-10 08:51:10,208 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-12-10 08:51:10,652 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-12-10 08:51:10,661 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-12-10 08:51:11,560 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2018-12-10 08:51:11,755 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2018-12-10 08:51:11,755 DEBUG [restartedMain] WebConfigurer: Initializing Metrics registries
+2018-12-10 08:51:11,755 DEBUG [restartedMain] WebConfigurer: Registering Metrics Filter
+2018-12-10 08:51:11,755 DEBUG [restartedMain] WebConfigurer: Registering Metrics Servlet
+2018-12-10 08:51:11,755 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2018-12-10 08:51:12,177 DEBUG [restartedMain] AsyncSpringLiquibase: Liquibase is disabled
+2018-12-10 08:51:19,786 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:51:19,802 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:51:19,802 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:51:19,802 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-12-10 08:51:19,802 DEBUG [restartedMain] JPushClient: jpush配置初始化成功！
+2018-12-10 08:51:26,271 DEBUG [restartedMain] Reflections: going to scan these urls:
+file:/D:/SGM/IPOP-server/target/classes/
+2018-12-10 08:51:26,349 INFO  [restartedMain] Reflections: Reflections took 78 ms to scan 1 urls, producing 201 keys and 1407 values 
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.web.WebSecurityConfigurer -> org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.web.WebSecurityConfigurer
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype javax.servlet.Filter -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.BeanNameAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanNameAware
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.context.EnvironmentAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.context.EnvironmentAware
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.core.env.EnvironmentCapable -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.context.ServletContextAware -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.web.context.ServletContextAware
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.InitializingBean -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> org.springframework.web.filter.GenericFilterBean
+2018-12-10 08:51:26,349 DEBUG [restartedMain] Reflections: expanded subtype java.lang.RuntimeException -> org.springframework.security.core.AuthenticationException
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Exception -> java.lang.RuntimeException
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Throwable -> java.lang.Exception
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype java.io.Serializable -> java.lang.Throwable
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ProblemAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.ThrowableAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait -> org.zalando.problem.spring.web.advice.general.GeneralAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.general.UnsupportedOperationAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.HttpAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.NotAcceptableAdviceTrait
+2018-12-10 08:51:26,365 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.UnsupportedMediaTypeAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait -> org.zalando.problem.spring.web.advice.http.HttpAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.http.MethodNotAllowedAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.IOAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MessageNotReadableAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.MultipartAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait -> org.zalando.problem.spring.web.advice.io.IOAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.io.TypeMistmatchAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:51:26,381 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestParameterAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.MissingServletRequestPartAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.NoHandlerFoundAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait -> org.zalando.problem.spring.web.advice.routing.RoutingAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.routing.ServletRequestBindingAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AuthenticationAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait -> org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.security.AccessDeniedAdviceTrait
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait -> org.zalando.problem.spring.web.advice.ProblemHandling
+2018-12-10 08:51:26,396 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ConstraintViolationAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.AdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BindAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BindAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseValidationAdviceTrait -> org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait -> org.zalando.problem.spring.web.advice.validation.ValidationAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.spring.web.advice.validation.BaseBindingResultAdviceTrait -> org.zalando.problem.spring.web.advice.validation.MethodArgumentNotValidAdviceTrait
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.cache.annotation.CachingConfigurer -> org.springframework.cache.annotation.CachingConfigurerSupport
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.WebApplicationInitializer -> org.springframework.boot.web.support.SpringBootServletInitializer
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.web.servlet.config.annotation.WebMvcConfigurer -> org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.jpa.repository.JpaRepository -> com.sgm.ipop.common.repository.base.BaseRepository
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.PagingAndSortingRepository -> org.springframework.data.jpa.repository.JpaRepository
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.CrudRepository -> org.springframework.data.repository.PagingAndSortingRepository
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.Repository -> org.springframework.data.repository.CrudRepository
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.data.repository.query.QueryByExampleExecutor -> org.springframework.data.jpa.repository.JpaRepository
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype ch.qos.logback.core.spi.ContextAware -> ch.qos.logback.core.spi.ContextAwareBase
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype java.lang.Comparable -> java.lang.Enum
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype java.io.Serializable -> java.lang.Enum
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype com.ryantenney.metrics.spring.config.annotation.MetricsConfigurer -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.DisposableBean -> com.ryantenney.metrics.spring.config.annotation.MetricsConfigurerAdapter
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.security.config.annotation.SecurityConfigurer -> org.springframework.security.config.annotation.SecurityConfigurerAdapter
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.ThrowableProblem -> org.zalando.problem.AbstractThrowableProblem
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype java.lang.RuntimeException -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Exceptional -> org.zalando.problem.ThrowableProblem
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.zalando.problem.Problem -> org.zalando.problem.Exceptional
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.BeanFactoryAware -> org.springframework.cloud.config.java.AbstractCloudConfig
+2018-12-10 08:51:26,412 DEBUG [restartedMain] Reflections: expanded subtype org.springframework.beans.factory.Aware -> org.springframework.beans.factory.BeanFactoryAware
+2018-12-10 08:51:33,677 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-12-10 08:51:33,677 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-12-10 08:51:34,396 DEBUG [restartedMain] SwaggerConfiguration: Starting Swagger
+2018-12-10 08:51:34,396 DEBUG [restartedMain] SwaggerConfiguration: Started Swagger in 0 ms
+2018-12-10 08:51:40,974 INFO  [restartedMain] AdminApp: Started AdminApp in 37.855 seconds (JVM running for 38.999)
+2018-12-10 08:51:40,974 INFO  [restartedMain] AdminApp: 
+----------------------------------------------------------
+	Application 'ipop' is running! Access URLs:
+	Local: 		http://localhost:8081
+	External: 	http://10.21.12.23:8081
+	Profile(s): 	[swagger, no-liquibase, dev]
+----------------------------------------------------------
+2018-12-10 08:51:45,727 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: DealerAccessFilter init start
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 请求路径：/ipop-open/api/calculat/calculatName
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header1 ： Accept --> */*
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header2 ： Cache-Control --> no-cache
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header3 ： x-position-code --> zhizao
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header4 ： User-Agent --> Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header5 ： Connection --> keep-alive
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header6 ： Postman-Token --> 0b0c5aec-85fc-646e-7fd5-6833e32223a1
+2018-12-10 08:51:45,755 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header7 ： Host --> localhost:8081
+2018-12-10 08:51:45,756 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header8 ： Accept-Language --> zh-CN,zh;q=0.9
+2018-12-10 08:51:45,756 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header9 ： Accept-Encoding --> gzip, deflate, br
+2018-12-10 08:51:45,756 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header10 ： x-user-code --> apptest50
+2018-12-10 08:51:45,756 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header11 ： x-module-system-id --> 3
+2018-12-10 08:51:45,756 DEBUG [XNIO-2 task-1] DefaultAccessServletFilter: 网关header12 ： Content-Type --> application/json;charset=UTF-8
+2018-12-10 08:51:45,758 INFO  [XNIO-2 task-1] DefaultAccessServletFilter: start doFilter
+2018-12-10 08:51:45,778 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.web.rest.special.IpopOpenResource.qryCalculatName() with argument[s] = []
+2018-12-10 08:51:45,940 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.service.impl.CalculatServiceImpl.qryCalculatName() with argument[s] = []
+2018-12-10 08:51:46,208 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.service.impl.CalculatServiceImpl.qryCalculatName() with result = [CalculatDTO{id=154439, calculatName=N5-AVG, calculatType=0, pointValue=5, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-05T07:52:14.600Z, lastModifiedDate=2018-12-06T06:32:05.495Z, isDeleted=false}, CalculatDTO{id=154449, calculatName=N30-AVG, calculatType=0, pointValue=30, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-05T07:52:25.699Z, lastModifiedDate=2018-12-06T06:32:25.198Z, isDeleted=false}, CalculatDTO{id=154469, calculatName=N100-STD, calculatType=1, pointValue=100, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-05T07:52:50.475Z, lastModifiedDate=2018-12-06T06:33:22.214Z, isDeleted=false}, CalculatDTO{id=154474, calculatName=N300-STD, calculatType=1, pointValue=300, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-05T07:53:01.882Z, lastModifiedDate=2018-12-06T06:33:53.157Z, isDeleted=false}, CalculatDTO{id=160591, calculatName=N100-AVG, calculatType=0, pointValue=100, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-06T06:32:43.839Z, lastModifiedDate=2018-12-06T06:32:43.839Z, isDeleted=false}, CalculatDTO{id=160592, calculatName=N300-AVG, calculatType=0, pointValue=300, createdBy=apptest50, lastModifiedBy=apptest50, createdDate=2018-12-06T06:33:04.197Z, lastModifiedDate=2018-12-06T06:33:04.197Z, isDeleted=false}]
+2018-12-10 08:51:46,366 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.web.rest.special.IpopOpenResource.qryCalculatName() with result = <200 OK,[DepartmentSformDTO{label='N5-AVG', value='154439', code='N5-AVG'}, DepartmentSformDTO{label='N30-AVG', value='154449', code='N30-AVG'}, DepartmentSformDTO{label='N100-STD', value='154469', code='N100-STD'}, DepartmentSformDTO{label='N300-STD', value='154474', code='N300-STD'}, DepartmentSformDTO{label='N100-AVG', value='160591', code='N100-AVG'}, DepartmentSformDTO{label='N300-AVG', value='160592', code='N300-AVG'}],{}>
+2018-12-10 08:51:46,376 DEBUG [XNIO-2 task-1] LoggingAspect: Enter: com.sgm.ipop.admin.service.impl.RedisServiceImpl.set() with argument[s] = [/ipop/ipop-open/api/calculat/calculatName, DepartmentSformDTO, 604800000]
+2018-12-10 08:51:47,348 DEBUG [XNIO-2 task-1] LoggingAspect: Exit: com.sgm.ipop.admin.service.impl.RedisServiceImpl.set() with result = true
+2018-12-10 08:51:47,421 INFO  [XNIO-2 task-1] DefaultAccessServletFilter: end doFilter

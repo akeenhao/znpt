@@ -1,0 +1,58 @@
+2018-11-07 16:18:13,373 DEBUG [restartedMain] HttpURLConnection: sun.net.www.MessageHeader@11bbea6e6 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-11-07 16:18:13,562 DEBUG [restartedMain] HttpURLConnection: sun.net.www.MessageHeader@1165aad011 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Wed, 07 Nov 2018 08:18:13 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
+2018-11-07 16:18:13,605 INFO  [restartedMain] AdminApp: The following profiles are active: swagger,no-liquibase,dev
+2018-11-07 16:18:16,658 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2018-11-07 16:18:16,963 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2018-11-07 16:18:16,971 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2018-11-07 16:18:17,697 DEBUG [restartedMain] WebConfigurer: Registering CORS filter
+2018-11-07 16:18:17,833 INFO  [restartedMain] WebConfigurer: Web application configuration, using profiles: swagger
+2018-11-07 16:18:17,834 DEBUG [restartedMain] WebConfigurer: Initializing Metrics registries
+2018-11-07 16:18:17,836 DEBUG [restartedMain] WebConfigurer: Registering Metrics Filter
+2018-11-07 16:18:17,836 DEBUG [restartedMain] WebConfigurer: Registering Metrics Servlet
+2018-11-07 16:18:17,838 INFO  [restartedMain] WebConfigurer: Web application fully configured
+2018-11-07 16:18:18,233 DEBUG [restartedMain] AsyncSpringLiquibase: Liquibase is disabled
+2018-11-07 16:18:25,390 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-11-07 16:18:25,477 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-11-07 16:18:25,477 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-11-07 16:18:25,478 INFO  [restartedMain] NativeHttpClient: Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-11-07 16:18:25,478 DEBUG [restartedMain] JPushClient: jpush配置初始化成功！
+2018-11-07 16:18:34,903 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-11-07 16:18:34,906 WARN  [restartedMain] URLConfigurationSource: No URLs will be polled as dynamic configuration sources.
+2018-11-07 16:18:35,402 DEBUG [restartedMain] SwaggerConfiguration: Starting Swagger
+2018-11-07 16:18:35,407 DEBUG [restartedMain] SwaggerConfiguration: Started Swagger in 4 ms
+2018-11-07 16:18:37,185 INFO  [restartedMain] DiscoveryClient: Initializing Eureka in region us-east-1
+2018-11-07 16:18:37,297 INFO  [restartedMain] DiscoveryJerseyProvider: Using JSON encoding codec LegacyJacksonJson
+2018-11-07 16:18:37,297 INFO  [restartedMain] DiscoveryJerseyProvider: Using JSON decoding codec LegacyJacksonJson
+2018-11-07 16:18:37,460 INFO  [restartedMain] DiscoveryJerseyProvider: Using XML encoding codec XStreamXml
+2018-11-07 16:18:37,460 INFO  [restartedMain] DiscoveryJerseyProvider: Using XML decoding codec XStreamXml
+2018-11-07 16:18:37,603 INFO  [restartedMain] ConfigClusterResolver: Resolving eureka endpoints via configuration
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Disable delta property : false
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Single vip registry refresh property : null
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Force full registry fetch : false
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Application is null : false
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Registered Applications size is zero : true
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Application version is -1: true
+2018-11-07 16:18:37,631 INFO  [restartedMain] DiscoveryClient: Getting all instance registry info from the eureka server
+2018-11-07 16:18:37,819 INFO  [restartedMain] DiscoveryClient: The response status is 200
+2018-11-07 16:18:37,820 INFO  [restartedMain] DiscoveryClient: Starting heartbeat executor: renew interval is: 5
+2018-11-07 16:18:37,822 INFO  [restartedMain] InstanceInfoReplicator: InstanceInfoReplicator onDemand update allowed rate per min is 12
+2018-11-07 16:18:37,825 INFO  [restartedMain] DiscoveryClient: Discovery Client initialized at timestamp 1541578717825 with initial instances count: 5
+2018-11-07 16:18:37,851 INFO  [restartedMain] DiscoveryClient: Saw local status change event StatusChangeEvent [timestamp=1541578717851, current=UP, previous=STARTING]
+2018-11-07 16:18:38,133 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@2d29fb166 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-11-07 16:18:38,306 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@7057e84011 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Wed, 07 Nov 2018 08:18:38 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
+2018-11-07 16:18:38,311 INFO  [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient: DiscoveryClient_IPOP/ipop:628d6aae33dc77b4358b80ce083677c6: registering service...
+2018-11-07 16:18:38,372 INFO  [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient: DiscoveryClient_IPOP/ipop:628d6aae33dc77b4358b80ce083677c6 - registration status: 204
+2018-11-07 16:18:40,924 INFO  [restartedMain] AdminApp: Started AdminApp in 29.782 seconds (JVM running for 31.215)
+2018-11-07 16:18:40,925 INFO  [restartedMain] AdminApp: 
+----------------------------------------------------------
+	Application 'ipop' is running! Access URLs:
+	Local: 		http://localhost:8081
+	External: 	http://10.21.12.44:8081
+	Profile(s): 	[swagger, no-liquibase, dev]
+----------------------------------------------------------
+2018-11-07 16:23:37,632 INFO  [AsyncResolver-bootstrap-executor-0] ConfigClusterResolver: Resolving eureka endpoints via configuration
+2018-11-07 16:23:44,440 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@5f1a36ba6 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-11-07 16:23:44,643 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@7252eee011 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Wed, 07 Nov 2018 08:23:44 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
+2018-11-07 16:28:37,636 INFO  [AsyncResolver-bootstrap-executor-0] ConfigClusterResolver: Resolving eureka endpoints via configuration
+2018-11-07 16:28:53,618 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@a13bc4a6 pairs: {GET /config/admin/dev/master HTTP/1.1: null}{Accept: application/json, application/*+json}{Authorization: Basic YWRtaW46YWRtaW4=}{User-Agent: Java/1.8.0_161}{Host: 10.203.109.135:8761}{Connection: keep-alive}
+2018-11-07 16:28:53,789 DEBUG [DiscoveryClient-InstanceInfoReplicator-0] HttpURLConnection: sun.net.www.MessageHeader@333fe7fb11 pairs: {null: HTTP/1.1 200 OK}{Expires: 0}{Cache-Control: no-cache, no-store, max-age=0, must-revalidate}{X-XSS-Protection: 1; mode=block}{Pragma: no-cache}{Date: Wed, 07 Nov 2018 08:28:53 GMT}{Connection: keep-alive}{X-Content-Type-Options: nosniff}{Transfer-Encoding: chunked}{Content-Type: application/json;charset=UTF-8}{X-Application-Context: ipop-registry:swagger,dev,native:8761}
